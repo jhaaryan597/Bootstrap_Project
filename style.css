@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+    height: 70px;
+}
+b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler-icon{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*------Banner------*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782); 
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: black;
+}
+.img-fluid{
+    margin-top: 5px;
+    height: 250px;
+    width: 85%;
+    border: black;
+    border-radius: 5%;
+}
+#welcome{
+    background-color: #BC7FCD;
+    width: 100%;
+    margin-top: 0;
+}
+.col-md-6{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*--------*/
+
+#services{
+    padding: 30px 0 30px 0;
+    background-color: #3C3633;
+    color: black;
+    height: 200px;
+}
+
+#p1{
+    color: #fff;
+}
